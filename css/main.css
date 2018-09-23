@@ -1,0 +1,60 @@
+@import "compass";
+
+.main {
+    margin: 80px auto;
+}
+
+
+
+.web-left {
+	position: absolute;
+	left: -10px;
+	top: -10px;
+	transform: rotate(-90deg);
+	z-index: -1;
+	opacity: 0.2;
+}
+
+h1, h2, h3 {
+    padding: 0 25px;
+    font-family: emilys-candy, sans-serif;
+}
+
+h2 {
+    font-size: 3em;
+    color: #E37100;
+   /* width: 5.65em;
+    height: 1em;
+    max-width: 8em;
+   position: relative;
+     top: 211px;*/
+   
+}
+
+.party {
+    position: relative;
+    display: block;
+    right: -253px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #8d4600;
+    text-align: center;    
+    margin: 2em;
+}
+
+.info {
+    width: 100%;
+    color:white;
+    font-size: 1.2em;
+    position: absolute;
+    font-family: emilys-candy, sans-serif;
+    /*font-family: 'Patrick Hand', cursive;*/
+    bottom: 20px;
+}
+
+.info ul {
+    text-align: center;
+    line-height: 1.5em;
+}
