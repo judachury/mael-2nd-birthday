@@ -11,12 +11,11 @@ h1, h2, h3 {
    /* color: #E37100;*/
    color: #ef5f29;
 }
-
 h1 {
-    margin: 20px 0 10px;
+    margin: 5px 0;
 }
 h2 {
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
 
 h4 {
@@ -86,12 +85,14 @@ p {
 }
 .info {
     line-height: 24px;
+    position: relative;
 }
 .to {
     font-size: 0.7rem;
     position: absolute;
-    top: 18px;
-    right: 55px;
+    top: 11px;
+    right: 50%;
+    margin-right: -5px;
 }
 .super {
     vertical-align: super;
@@ -99,43 +100,38 @@ p {
 .bottom-banner {
     color: #e18107;
     font-size: 0.9rem;
-    margin-top: 20px;
+    margin-top: 5px;
     font-weight: bold;
 }
-
+.bottom-banner span {
+    display: none;
+}
 .characters {
     width:40%;
     position: relative;
     bottom: -35px;
 }
 .cat {
-    width: 121px;
-    left: 22px;
+    width: 115px;
 }
 .witch {
     width: 165px;
-    left: -7px;
 }
-
 .footer {
     font-size:1rem;
-    position: fixed;
-    bottom: 0;
 }
-
+.footer-images {
+    min-height: 170px;
+}
 .floor {
     background-color: #e18107;
 }
-
 .floor span {
     display: block;
     text-align: left;
     font-size: 0.6rem;
     padding: 40px 0px 20px;
 }
-
-
-
 .star-five {
     margin: 5px 0;
     position: relative;
@@ -186,11 +182,13 @@ p {
     content: '';
  }
  .star-right {
+    display: none;
     top: 20px;
     right: 5px;
  }
 
  .star-left {
+    display: none;
     top: 20px;
     left: 5px;
  }
@@ -228,8 +226,8 @@ p {
     left: 14px;    
  }
  .star-8 {
-    top: 95px;
-    right: 113px;   
+    top: 86px;
+    right: 128px;  
  }
  .star-9 {
     top: 103px;
@@ -244,8 +242,8 @@ p {
     top: 60px;   
  }
  .star-12 {
-    top: 95px;
-    left: 75px;   
+    top: 88px;
+    left: 88px;  
  }
  .star-1, .star-1:before, .star-1:after,
  .star-7, .star-7:before, .star-7:after,
@@ -264,6 +262,11 @@ p {
     border-bottom:7px  solid #c3a337;
  }
 
+ @media only screen and (min-width:375px) {
+    .star-right, .star-left {
+        display: block;
+    }
+ }
 
 
 
